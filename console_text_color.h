@@ -1,6 +1,7 @@
 #include <windows.h>
 namespace ConsoleTextColor
 {
+    //改变Console的字符颜色
     void RED()
     {
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_INTENSITY | FOREGROUND_RED);
